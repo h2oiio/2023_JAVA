@@ -160,7 +160,8 @@ public class GalagaGame extends JPanel implements ActionListener, KeyListener {
         }
     }
 
-    public void keyTyped(KeyEvent e) {}
+    public void keyTyped(KeyEvent e) {
+    }
 
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
@@ -196,3 +197,5 @@ public class GalagaGame extends JPanel implements ActionListener, KeyListener {
         });
     }
 }
+
+// 20221019 이수정
